@@ -1,0 +1,78 @@
+[
+  {
+    "id": "G1_UNKNOWN_SENSOR_GAIN_GAUGE",
+    "status": "SUPPORT_NEGATIVE_CONTROL_NONIDENTIFIABLE",
+    "max_observation_difference": 2.6645352591003757e-15,
+    "equivalence": "x*=c x, gain*=gain/c",
+    "claim": "unknown global sensor gain cannot be separated from latent scale without an anchor"
+  },
+  {
+    "id": "G2_CENTRAL_INVERSE_SQUARE",
+    "status": "CHALLENGE_DIRECT_QUADRATIC_EXACTNESS",
+    "test_mse": 0.10520696158986079,
+    "test_max_abs_derivative_error": 1.3867638429340179,
+    "scope": "direct coordinate quadratic derivative fit on bounded central-force trajectories; auxiliary lifts/GR not tested"
+  },
+  {
+    "id": "G3_QUINTIC_STOCHASTIC_LIFT",
+    "status": "EXACT_ITO_LIFT_DERIVED_NUMERICAL_TOLERANCE_NOT_MET",
+    "exact_lift": {
+      "dx": "-a*x-b*x*w; diffusion sigma",
+      "dv": "-2a*v-2b*v*w+sigma^2; diffusion 2sigma*x",
+      "dw": "-4a*w-4b*w^2+6sigma^2*v; diffusion 4sigma*x*v"
+    },
+    "rows": [
+      {
+        "steps": 64,
+        "x2_manifold_rms": 0.0025197686621409366,
+        "x4_manifold_rms": 0.0018661266463692698
+      },
+      {
+        "steps": 128,
+        "x2_manifold_rms": 0.001719679889338501,
+        "x4_manifold_rms": 0.0013040293215721055
+      },
+      {
+        "steps": 256,
+        "x2_manifold_rms": 0.0012149367033028524,
+        "x4_manifold_rms": 0.0009237399821759151
+      },
+      {
+        "steps": 512,
+        "x2_manifold_rms": 0.0008386784014773448,
+        "x4_manifold_rms": 0.0006298748785571802
+      }
+    ],
+    "convergence_direction": true,
+    "tolerance": 1e-05
+  },
+  {
+    "id": "G4_S05_RESOURCE_SATURATION",
+    "status": "UNMAPPED_EXACT_FROZEN_QUADRATIC_CORE",
+    "heldout_mse": 0.00010820884505051961,
+    "heldout_max_abs": 0.33865980593248357,
+    "scope": "legacy clipped resource/saturating-harvest trajectories; direct quadratic one-step map; clipping/rational mechanism retained"
+  },
+  {
+    "id": "G5_S07_TANH_COUPLING",
+    "status": "UNMAPPED_EXACT_FROZEN_QUADRATIC_CORE",
+    "heldout_mse": 0.0015577800270790102,
+    "heldout_max_abs": 0.14063101678434026,
+    "scope": "legacy tanh-coupling family; direct finite quadratic one-step approximation only"
+  },
+  {
+    "id": "G6_LEARNED_QUANTUM_CHANNEL_COMPARATOR",
+    "status": "FINITE_LEARNED_CHANNEL_COMPARATOR_PASS",
+    "heldout_bloch_mse": 6.293166539058691e-32,
+    "minimum_predicted_density_eigenvalue": 0.002501727844021487,
+    "unital_no_intercept_mse": 0.02447161239671523,
+    "scope": "synthetic single-qubit amplitude-damping channel identification; does not derive GKSL/Born rules or validate physical quantum brain claims"
+  },
+  {
+    "id": "G7_REDUCED_QUANTUM_MEMORY",
+    "status": "REDUCED_HISTORY_FREE_CLOSURE_CHALLENGED",
+    "before_reduced_trace_distance": 0.0,
+    "after_same_dynamics_trace_distance": 1.0,
+    "scope": "finite two-qubit memory witness; augmented joint state remains adequate"
+  }
+]

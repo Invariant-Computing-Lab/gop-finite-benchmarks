@@ -1,0 +1,32 @@
+{
+  "repo": "gop-finite-benchmarks",
+  "codes": [
+    "G37",
+    "G38",
+    "G39",
+    "G40",
+    "G41",
+    "G42"
+  ],
+  "commands": [
+    [
+      "python",
+      "replay_finite.py"
+    ]
+  ],
+  "check_cwd": ".",
+  "scope": "Seven fixed finite functions from OMEGA; tolerance failures retained. Runner is new recovery glue, not a new scientific experiment.",
+  "source_unchanged": true,
+  "status": "LOCAL_CHECKS_PASS_OWNER_GATES_OPEN",
+  "owner_approval_required": true,
+  "public_uploaded": false,
+  "source_reference": "See private release registry; source hashes retained.",
+  "last_check": {
+    "repo": "gop-finite-benchmarks",
+    "passed": true,
+    "scope": "Seven fixed finite functions from OMEGA; tolerance failures retained. Runner is new recovery glue, not a new scientific experiment.",
+    "commands": 1,
+    "readiness": "LOCAL_CHECKS_PASS_OWNER_GATES_OPEN",
+    "reason": "Declared local checks passed; scientific, rights and deployment scope remain limited."
+  }
+}

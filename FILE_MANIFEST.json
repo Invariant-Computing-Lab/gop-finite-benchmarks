@@ -1,0 +1,67 @@
+[
+  {
+    "path": ".github/workflows/source-check.yml",
+    "bytes": 282,
+    "sha256": "ee3916cd30ed52bbdf5f183c874e542fb06f07f073c5434ab1a43a991fc760b0"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 211,
+    "sha256": "8abc42435e4bbd75c0e2a0c1fb6972e42ddac387a243eaae9b611c846729a4d1"
+  },
+  {
+    "path": "DEPENDENCIES_AND_CHECKS.md",
+    "bytes": 508,
+    "sha256": "55b7c5464933249aeeb4d189b747b0c53c6cb23252becc18d244d8bb6f5b2f89"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1848,
+    "sha256": "efbef7c6e5a5e083b724981f2facdb475cc4b43a5b266706549515190ac953eb"
+  },
+  {
+    "path": "RELEASE_NOTES.md",
+    "bytes": 215,
+    "sha256": "ff1d760ca9965999eb8e3b81b9eab0c150f3ef3ff9482fa22ad6de93bc938326"
+  },
+  {
+    "path": "RELEASE_SPEC.json",
+    "bytes": 984,
+    "sha256": "65e5a7dca0ea20d185c5d48f75a0ac9ffa3e1a6a52d6473cf095ef712ea27139"
+  },
+  {
+    "path": "checks/RESULT.json",
+    "bytes": 637,
+    "sha256": "561a88081553c7ef12afa125185239cd0701fe76eba163725c516a152e3b7a7d"
+  },
+  {
+    "path": "checks/generated/replay_result.json",
+    "bytes": 2890,
+    "sha256": "a5fb7c9a456423670dc5817b911752a463383c95c0e8a2be3ff255f815b1b6d8"
+  },
+  {
+    "path": "omega_common.py",
+    "bytes": 5719,
+    "sha256": "214defeaedc5f93cb8bf3fb1f36391a8ea52cb6393a03e5992a6c96103ea3a3c"
+  },
+  {
+    "path": "omega_gop.py",
+    "bytes": 12796,
+    "sha256": "9904b80bca3dbd9f194deb6cd8ee7bd4842334914c2aab49052a8f16b1ac5aa0"
+  },
+  {
+    "path": "replay_finite.py",
+    "bytes": 422,
+    "sha256": "7c312b08ae9875b9e0fb868d12ba1b0eb3bb14085d938d52c997b9cce164985d"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 76,
+    "sha256": "30fd64d011c61147beeecfc09ce2a1a425f5a645e0e904d7907df8952931ad46"
+  },
+  {
+    "path": "run_checks.py",
+    "bytes": 2366,
+    "sha256": "9a59bff276aad8abeba201a01fa2a29525db6af9e71ebb83a58a7cc6cea56990"
+  }
+]

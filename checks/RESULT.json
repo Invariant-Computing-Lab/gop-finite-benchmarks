@@ -1,0 +1,22 @@
+{
+  "repo": "gop-finite-benchmarks",
+  "recovery": "CP03R1",
+  "tests_executed": 1,
+  "passed": true,
+  "scope": "Seven fixed finite functions from OMEGA; tolerance failures retained. Runner is new recovery glue, not a new scientific experiment.",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "replay_finite.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.034,
+      "stdout": "{\"executed\": 7, \"status\": \"FINITE_REPLAY_NEGATIVES_RETAINED\"}\n",
+      "stderr": ""
+    }
+  ],
+  "generated_result_hashes": {
+    "replay_result.json": "a5fb7c9a456423670dc5817b911752a463383c95c0e8a2be3ff255f815b1b6d8"
+  }
+}

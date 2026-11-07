@@ -1,5 +1,7 @@
 # gop-finite-benchmarks
 
+**Institutional context.** This repository is an Invariant Computing Lab research-software/reproducibility artefact. Source, saved fixtures and finite software checks must be interpreted within their documented assumptions and do not, by themselves, establish independent physical, biological, clinical or mathematical validation.
+
 CP03R1 source and reproducibility package. Portfolio codes: G37, G38, G39, G40, G41, G42.
 
 ## What is included
@@ -26,7 +28,7 @@ Recovered from the fixed source archives listed in the private delivery registry
 Software tests are not independent biological, clinical, physical or mathematical validation. Review the original study's failed and untested claims before citing results. Missing components are not fabricated. This version is not automatically the latest code from other concurrent workstreams.
 
 ## Publication and licensing
-This is a private staging package. Existing licence files retain their original meaning; no new blanket licence or third-party redistribution permission is granted. A human maintainer must approve authorship, rights, secrets and target-account settings before public upload.
+This repository is publicly visible, but visibility alone does not grant a blanket licence, rights to third-party datasets, or permission to redistribute restricted source material. Preserve and consult existing licence and provenance files; scientific validation and rights approval are separate matters.
 ## Verified packaging revision — 2026-10-20
 
 Seven fixed finite functions from OMEGA; tolerance failures retained. Runner is new recovery glue, not a new scientific experiment.
